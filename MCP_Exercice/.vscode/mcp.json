@@ -1,0 +1,30 @@
+{
+	"servers": {
+		"sayHello": {
+			"type": "stdio",
+			"command": "uv",
+			"args": [
+				"run",
+				"main.py"
+			]
+		},
+		"flight": {
+			"type": "stdio",
+			"command": "uv",
+			"args": [
+                "run",
+                "flight_server.py"
+            ]
+		},
+        "LibraryServer": {
+            "type": "stdio",
+            "command": "uv",
+            "args": [
+                "run",
+                "openLibrary_mcp.py"
+            ]
+        }
+
+	},
+	"inputs": []
+}
